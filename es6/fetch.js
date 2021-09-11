@@ -47,3 +47,4 @@ const newProducts = [...products, newProduct];
 // create a new array without one specific item 
 // remove phone means create a new array without the phone
 const remaining = products.filter(p => p.name !== 'phone');
+
